@@ -1,0 +1,278 @@
+    
+
+html {
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 2em;
+    font-weight: 400;
+}
+body {
+    margin-top: 0%;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*nav*/
+
+.main-header {
+    position: fixed;
+    margin-top: 0%;
+    display: flex;
+    font-size: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    top: 0;
+    left: 0;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+}
+.navlist { display: flex; 
+    padding: auto;
+}
+
+.navlist li{ 
+    list-style: none;
+}
+ .navlist li a {
+    color:#5e646b;
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    }
+
+ .navlist li a:hover{
+    color:#00b39b;
+ }
+
+ .dropdown{
+     cursor: pointer;
+ }
+ .navlist li .dropdown {
+     display: block;
+     background: ivory;
+     cursor: pointer;
+ }
+ .dropdown ul {
+     display: none;
+     color:#ababab;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+.dropdown:hover.dropdown ul {
+    display: inline;
+    color:#5e646b;
+    background-color: rgb(240, 253, 255) ;
+    box-sizing:content-box ;
+    padding-right: 50px;
+}
+
+.logo { margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+section .header {
+    display: flex;
+    color:#00b39b;
+    font-size: 3rem;
+    justify-content: center;
+    padding-top: 1em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+article {
+    display: flex;-ms-flex-item-align;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+article .word1 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+article .word2 {
+    font-size: 20px;
+    margin-right: 120px;
+}
+
+.middle { color: white;
+    font-size: 1em;
+    display: flex;
+    vertical-align: middle;
+    border: 0;
+    padding: 100px;
+    -ms-flex-item-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.middle .blue { color:white;
+    margin-left: 10px;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .2s ease 0s;
+}
+.middle .red {
+
+    margin-right: 2%;
+    margin-left: 2%;
+    background: #3d83df;
+    border-color: black;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .2s ease 0s;
+}
+.middle .black {
+
+    background: #5e646b;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .2s ease 0s;
+}
+.template {
+    display: flex;
+    flex-direction: row;
+    margin-right:200px;
+    margin-left: 200px;
+}
+.template1 {
+  
+    flex-direction: row;
+    font-size: 25px;
+    color: #00b39b;
+    float: right;
+    width: 400px;
+    
+    
+}
+.template .template2 {
+    display: grid;
+    grid-template: 100px / auto auto auto auto;
+    grid-gap: 20px;
+    list-style: none;
+    justify-content: space-between;
+    height: 200px;
+    color: #747474;
+}
+
+.bigplatform {
+    background-color:#c7f5ef;
+    display: flex;
+    list-style: none;
+   
+    
+}
+.bigplatform .word3 {
+
+    font-size: 40px;
+    font-family: Roboto,Arial,sans-serif;
+    margin-top: 100px;
+    width: 400px;
+    color:#2ae2ca ;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.biggestlist {
+    color:#747474;
+    list-style: none;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1em;
+    margin-left: 200px;
+    text-align: center;
+
+}
+
+
+.todolist {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 100px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+.todolist > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+    
+}
+.citysection {
+   display: block;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 100px;
+    margin: 40px;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.cityimages  {
+    /*grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    list-style: none;*/
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.cityimages > div {
+    
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px
+}
+.below {
+    justify-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer { padding-top: 500px;
+    margin: 100px ;
+    padding-bottom: 0;
+    position: static;
+
+    padding: 1em;
+}
+
+
+
+
+/*.section__inner {
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}*/
+
+
+
